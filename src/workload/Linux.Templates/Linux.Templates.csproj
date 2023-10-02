@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.Build.NoTargets/3.7.0">
+
+  <PropertyGroup>
+    <Description>Templates for Linux platforms.</Description>
+    <PackageTags>linux;sdk;templates;template</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="linux/**" Pack="true" PackagePath="content/linux" />
+  </ItemGroup>
+
+</Project>

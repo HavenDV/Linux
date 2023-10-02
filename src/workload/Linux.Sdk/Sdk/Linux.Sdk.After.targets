@@ -1,0 +1,10 @@
+<Project>
+
+  <PropertyGroup>
+    <EnableDefaultLinuxItems Condition="'$(EnableDefaultLinuxItems)' == ''">$(EnableDefaultItems)</EnableDefaultLinuxItems>
+  </PropertyGroup>
+
+  <Import Project="Linux.Sdk.Common.targets" />
+  <Import Project="Linux.Sdk.NuGet.targets" Condition=" '$(MSBuildRuntimeType)' == 'Full' and '$(MSBuildVersion)' &lt; '17.0' " />
+
+</Project>

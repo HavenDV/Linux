@@ -1,0 +1,22 @@
+{
+  "version": "@LINUX_WORKLOAD_VERSION@",
+  "workloads": {
+    "linux": {
+      "description": ".NET SDK Workload for building Linux applications.",
+      "packs": [
+        "Linux.Sdk",
+        "Linux.Templates"
+      ]
+    }
+  },
+  "packs": {
+    "Linux.Sdk": {
+      "kind": "sdk",
+      "version": "@LINUX_WORKLOAD_VERSION@"
+    },
+    "Linux.Templates": {
+      "kind": "template",
+      "version": "@LINUX_WORKLOAD_VERSION@"
+    }
+  }
+}

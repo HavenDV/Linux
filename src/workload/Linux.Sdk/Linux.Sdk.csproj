@@ -1,0 +1,20 @@
+<!--
+***********************************************************************************************
+Linux.Sdk.csproj
+
+This project file is used to create the Linux.Sdk NuGet, which is the
+core workload sdk pack imported by the NET.Sdk.Linux.
+***********************************************************************************************
+-->
+<Project Sdk="Microsoft.Build.NoTargets/3.7.0">
+
+  <PropertyGroup>
+    <Description>The MSBuild targets for buliding Linux .NET projects</Description>
+    <PackageTags>linux;sdk</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Sdk/*" Pack="true" PackagePath="Sdk" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+<Project>
+
+  <PropertyGroup>
+    <_IsLinuxDefined>$([System.Text.RegularExpressions.Regex]::IsMatch('$(DefineConstants.Trim())', '(^|;)__LINUX__($|;)'))</_IsLinuxDefined>
+    <DefineConstants Condition="!$(_IsLinuxDefined)">__LINUX__;$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+<Project>
+
+	<PropertyGroup>
+		<AfterMicrosoftNETSdkTargets>$(AfterMicrosoftNETSdkTargets);$(MSBuildThisFileDirectory)Linux.Sdk.After.targets</AfterMicrosoftNETSdkTargets>
+	</PropertyGroup>
+
+  <Import Project="Linux.Sdk.Versions.targets" />
+  <Import Project="Linux.Sdk.DefaultProperties.targets" />
+
+</Project>

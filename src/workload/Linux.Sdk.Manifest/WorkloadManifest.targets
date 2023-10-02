@@ -1,0 +1,9 @@
+<Project>
+  
+  <Import Project="Sdk.targets" Sdk="Linux.Sdk" Condition="'$(TargetPlatformIdentifier)' == 'linux'" />
+
+  <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETCoreApp' and $([MSBuild]::VersionGreaterThanOrEquals($(TargetFrameworkVersion), '6.0')) ">
+    <SdkSupportedTargetPlatformIdentifier Include="linux" DisplayName="Linux" />
+  </ItemGroup>
+  
+</Project>
