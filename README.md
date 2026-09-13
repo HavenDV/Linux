@@ -1,5 +1,8 @@
 # Linux
 
+> [!IMPORTANT]
+> This experimental custom Linux workload is deprecated and no longer maintained. Existing NuGet versions remain available for legacy consumers. For new projects, use current SDK-supported target frameworks and platform tooling.
+
 [![dotnet](https://github.com/HavenDV/Linux/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/HavenDV/Linux/actions/workflows/dotnet.yml)
 [![License: MIT](https://img.shields.io/github/license/HavenDV/Linux)](https://github.com/HavenDV/Linux/blob/main/LICENSE.txt)
 [![Discord](https://img.shields.io/discord/1115206893015662663?label=Discord&logo=discord&logoColor=white&color=d82679)](https://discord.gg/Ca2xhfBf3v)
@@ -75,4 +78,4 @@ Official documentation regarding the design of Workloads and Sdks:
 ### Support
 Priority place for bugs: https://github.com/HavenDV/Linux/issues  
 Priority place for ideas and general questions: https://github.com/HavenDV/Linux/discussions  
-Discord: https://discord.gg/g8u2t9dKgE  
+Discord: https://discord.gg/g8u2t9dKgE
